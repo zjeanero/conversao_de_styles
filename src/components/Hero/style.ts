@@ -34,6 +34,8 @@ export const HeroTitle = styled.h2`
   color: ${(props) => props.theme.corSecundaria};
   font-size: 48px;
   font-family: Gloock, serif;
+  text-align: left;
+  max-width: 46%;
 
   @media (max-width: 768px) {
     font-size: 32px;
